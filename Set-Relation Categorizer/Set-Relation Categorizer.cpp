@@ -25,50 +25,50 @@ int main(void) {
     cout << "R : S -> S\n";
     cout << "R = {}\n\n\n";
     if(isValid(numR, numS)) {
-      if(isReflexive(numR, numS)) {
-        cout << "R is reflexive relation!\n";
+      if(isIdentity(numR, numS)) {
+        cout << "R is IDENTITY relation!\n";
       } else {
-        cout << "R is not reflexive relation!\n";
+        cout << "R is NOT IDENTITY relation!\n";
       }
 
-      if(isIdentity(numR, numS)) {
-        cout << "R is identity relation!\n";
+      if(isReflexive(numR, numS)) {
+        cout << "R is REFLEXIVE relation!\n";
       } else {
-        cout << "R is not identity relation!\n";
+        cout << "R is NOT REFLEXIVE relation!\n";
       }
 
       if(isIrreflexive(numR, numS)) {
-        cout << "R is irreflexive relation!\n";
+        cout << "R is IRREFLEXIVE relation!\n";
       } else {
-        cout << "R is not irreflexive relation!\n";
+        cout << "R is NOT IRREFLEXIVE relation!\n";
       }
 
       if(isSymmetric(numR, numS)) {
-        cout << "R is symmetric relation!\n";
+        cout << "R is SYMMETRIC relation!\n";
       } else {
-        cout << "R is not symmetric relation!\n";
+        cout << "R is NOT SYMMETRIC relation!\n";
       }
 
       if(isAntisymmetric(numR, numS)) {
-        cout << "R is antisymmetric relation!\n";
+        cout << "R is ANTISYMMETRIC relation!\n";
       } else {
-        cout << "R is not antisymmetric relation!\n";
+        cout << "R is NOT ANTISYMMETRIC relation!\n";
       }
 
       if(isAsymmetric(numR, numS)) {
-        cout << "R is asymmetric relation!\n";
+        cout << "R is ASYMMETRIC relation!\n";
       } else {
-        cout << "R is not asymmetric relation!\n";
+        cout << "R is NOT ASYMMETRIC relation!\n";
       }
       if(isTransitive(numR, numS)) {
-        cout << "R is transitive relation!\n";
+        cout << "R is TRANSITIVE relation!\n";
       } else {
-        cout << "R is not transitive relation!\n";
+        cout << "R is NOT TRANSITIVE relation!\n";
       }
       if(isEquivalence(numR, numS)) {
-        cout << "R is equivalence relation!\n";
+        cout << "R is EQUIVALENCE relation!\n";
       } else {
-        cout << "R is not equivalence relation!\n";
+        cout << "R is NOT EQUIVALENCE relation!\n";
       }
     } else {
       cout << "\nInvalid Input" << "\n";
@@ -105,50 +105,50 @@ int main(void) {
       cout << "\nR : S -> S\n";
       cout << "R = {}\n\n\n";
       if(isValid(numR, numS)) {
-        if(isReflexive(numR, numS, aryS)) {
-          cout << "R is reflexive relation!\n";
+        if(isIdentity(numR, numS, aryS)) {
+          cout << "R is IDENTITY relation!\n";
         } else {
-          cout << "R is not reflexive relation!\n";
+          cout << "R is NOT IDENTITY relation!\n";
         }
 
-        if(isIdentity(numR, numS, aryS)) {
-          cout << "R is identity relation!\n";
+        if(isReflexive(numR, numS, aryS)) {
+          cout << "R is REFLEXIVE relation!\n";
         } else {
-          cout << "R is not identity relation!\n";
+          cout << "R is NOT REFLEXIVE relation!\n";
         }
 
         if(isIrreflexive(numR, numS, aryS)) {
-          cout << "R is irreflexive relation!\n";
+          cout << "R is IRREFLEXIVE relation!\n";
         } else {
-          cout << "R is not irreflexive relation!\n";
+          cout << "R is NOT IRREFLEXIVE relation!\n";
         }
 
         if(isSymmetric(numR, numS, aryS)) {
-          cout << "R is symmetric relation!\n";
+          cout << "R is SYMMETRIC relation!\n";
         } else {
-          cout << "R is not symmetric relation!\n";
+          cout << "R is NOT SYMMETRIC relation!\n";
         }
 
         if(isAntisymmetric(numR, numS, aryS)) {
-          cout << "R is antisymmetric relation!\n";
+          cout << "R is ANTISYMMETRIC relation!\n";
         } else {
-          cout << "R is not antisymmetric relation!\n";
+          cout << "R is NOT ANTISYMMETRIC relation!\n";
         }
 
         if(isAsymmetric(numR, numS, aryS)) {
-          cout << "R is asymmetric relation!\n";
+          cout << "R is ASYMMETRIC relation!\n";
         } else {
-          cout << "R is not asymmetric relation!\n";
+          cout << "R is NOT ASYMMETRIC relation!\n";
         }
         if(isTransitive(numR, numS, aryS)) {
-          cout << "R is transitive relation!\n";
+          cout << "R is TRANSITIVE relation!\n";
         } else {
-          cout << "R is not transitive relation!\n";
+          cout << "R is NOT TRANSITIVE relation!\n";
         }
         if(isEquivalence(numR, numS, aryS)) {
-          cout << "R is equivalence relation!\n";
+          cout << "R is EQUIVALENCE relation!\n";
         } else {
-          cout << "R is not equivalence relation!\n";
+          cout << "R is NOT EQUIVALENCE relation!\n";
         }
       } else {
         cout << "\nInvalid Input" << "\n";
@@ -208,50 +208,50 @@ int main(void) {
         }
       }
       if(isValid(numR, numS, aryS, aryR)) {
-        if(isReflexive(numR, numS, aryS, aryR)) {
-          cout << "R is reflexive relation!\n";
-        } else {
-          cout << "R is not reflexive relation!\n";
-        }
-
         if(isIdentity(numR, numS, aryS, aryR)) {
-          cout << "R is identity relation!\n";
+          cout << "R is IDENTITY relation!\n";
         } else {
-          cout << "R is not identity relation!\n";
+          cout << "R is NOT IDENTITY relation!\n";
+        }
+        
+        if(isReflexive(numR, numS, aryS, aryR)) {
+          cout << "R is REFLEXIVE relation!\n";
+        } else {
+          cout << "R is NOT REFLEXIVE relation!\n";
         }
 
         if(isIrreflexive(numR, numS, aryS, aryR)) {
-          cout << "R is irreflexive relation!\n";
+          cout << "R is IRREFLEXIVE relation!\n";
         } else {
-          cout << "R is not irreflexive relation!\n";
+          cout << "R is NOT IRREFLEXIVE relation!\n";
         }
 
         if(isSymmetric(numR, numS, aryS, aryR)) {
-          cout << "R is symmetric relation!\n";
+          cout << "R is SYMMETRIC relation!\n";
         } else {
-          cout << "R is not symmetric relation!\n";
+          cout << "R is NOT SYMMETRIC relation!\n";
         }
 
         if(isAntisymmetric(numR, numS, aryS, aryR)) {
-          cout << "R is antisymmetric relation!\n";
+          cout << "R is ANTISYMMETRIC relation!\n";
         } else {
-          cout << "R is not antisymmetric relation!\n";
+          cout << "R is NOT ANTISYMMETRIC relation!\n";
         }
 
         if(isAsymmetric(numR, numS, aryS, aryR)) {
-          cout << "R is asymmetric relation!\n";
+          cout << "R is ASYMMETRIC relation!\n";
         } else {
-          cout << "R is not asymmetric relation!\n";
+          cout << "R is NOT ASYMMETRIC relation!\n";
         }
         if(isTransitive(numR, numS, aryS, aryR)) {
-          cout << "R is transitive relation!\n";
+          cout << "R is TRANSITIVE relation!\n";
         } else {
-          cout << "R is not transitive relation!\n";
+          cout << "R is NOT TRANSITIVE relation!\n";
         }
         if(isEquivalence(numR, numS, aryS, aryR)) {
-          cout << "R is equivalence relation!\n";
+          cout << "R is EQUIVALENCE relation!\n";
         } else {
-          cout << "R is not equivalence relation!\n";
+          cout << "R is NOT EQUIVALENCE relation!\n";
         }
       } else {
         cout << "\nInvalid Input" << "\n";
@@ -304,7 +304,7 @@ int isReflexive(int numR, int numS, int aryS[], int aryR[][2]) {
       }
     }
     if(k == 0) {
-      cout << "(" << aryS[i] << ", " << aryS[i] << ") is not present that's why, ";
+      cout << "(" << aryS[i] << ", " << aryS[i] << ") is NOT PRESENT that's why, ";
       break;
     }
   }
@@ -318,7 +318,7 @@ int isIdentity(int numR, int numS, int aryS[], int aryR[][2]) {
   if(isReflexive(numR, numS, aryS, aryR)) {
     for(int j = 0; j < numR; ++j) {
       if(aryR[j][0] != aryR[j][1]) {
-        cout << "(" << aryR[j][0] << ", " << aryR[j][1] << ") is present that's why, ";
+        cout << "(" << aryR[j][0] << ", " << aryR[j][1] << ") is PRESENT that's why, ";
         return 0;
       }
     }
@@ -331,7 +331,7 @@ int isIdentity(int numR, int numS, int aryS[], int aryR[][2]) {
 int isIrreflexive(int numR, int numS, int aryS[], int aryR[][2]) {
   for(int j = 0; j < numR; ++j) {
     if(aryR[j][0] == aryR[j][1]) {
-      cout << "(" << aryR[j][0] << ", " << aryR[j][1] << ") is present that's why, ";
+      cout << "(" << aryR[j][0] << ", " << aryR[j][1] << ") is PRESENT that's why, ";
       return 0;
     }
   }
@@ -349,7 +349,7 @@ int isSymmetric(int numR, int numS, int aryS[], int aryR[][2]) {
       }
     }
     if(k == 0) {
-      cout << "(" << aryR[i][1] << ", " << aryR[i][0] << ") is not present that's why, ";
+      cout << "(" << aryR[i][1] << ", " << aryR[i][0] << ") is NOT PRESENT that's why, ";
       break;
     }
   }
@@ -367,7 +367,7 @@ int isAntisymmetric(int numR, int numS, int aryS[], int aryR[][2]) {
         if(aryR[j][1] == aryR[j][0]) {
           k = 1;
         } else {
-          cout << "(" << aryR[j][0] << ", " << aryR[j][1] << ") is present that's why, ";
+          cout << "(" << aryR[j][0] << ", " << aryR[j][1] << ") is PRESENT that's why, ";
           k = 0;
         }
         break;
@@ -389,7 +389,7 @@ int isAsymmetric(int numR, int numS, int aryS[], int aryR[][2]) {
   for(int i = 0; i < numR; ++i) {
     for(int j = 0; j < numR; ++j) {
       if((aryR[j][0] == aryR[i][1]) && (aryR[j][1] == aryR[i][0])) {
-        cout << "(" << aryR[j][0] << ", " << aryR[j][1] << ") is present that's why, ";
+        cout << "(" << aryR[j][0] << ", " << aryR[j][1] << ") is PRESENT that's why, ";
         k = 0;
         break;
       }
@@ -419,7 +419,7 @@ int isTransitive(int numR, int numS, int aryS[], int aryR[][2]) {
           }
           l = 0;
           if((k == numR - 1) && (l == 0)) {
-            cout << "(" << n << ", " << m << ") is not present that's why, ";
+            cout << "(" << n << ", " << m << ") is NOT PRESENT that's why, ";
           }
         }
         if(l == 0) {
@@ -440,7 +440,7 @@ int isTransitive(int numR, int numS, int aryS[], int aryR[][2]) {
 }
 
 int isEquivalence(int numR, int numS, int aryS[], int aryR[][2]) {
-  if(isTransitive(numR, numS, aryS, aryR) && isSymmetric(numR, numS, aryS, aryR) && isReflexive(numR, numS, aryS, aryR)) {
+  if(isReflexive(numR, numS, aryS, aryR) && isSymmetric(numR, numS, aryS, aryR) && isTransitive(numR, numS, aryS, aryR)) {
     return 1;
   }
   return 0;
